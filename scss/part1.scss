@@ -1,0 +1,82 @@
+// SIgn up dalis
+.sea {
+    min-height: 380px;
+    background: url($img1);
+    @include photo-cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  
+    .textas {
+      max-width: 550px;
+      text-align: center;
+  
+      p {
+        color: white;
+        font-weight: bolder;
+        font-size: 2em;
+        margin-bottom: 30px;
+      }
+    }
+  
+    .signin {
+      form {
+        input {
+          width: 300px;
+          height: 25px;
+          border: none;
+          border-radius: 4px;
+          padding: 3px;
+          padding-left: 10px;
+          margin-right: 5px
+        }
+  
+        button {
+          @include buton-style;
+          padding-left: 25px;
+          padding-right: 25px;
+          transition: 0.3s;
+  
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+  
+  }
+  
+  //respossive dalis
+  .responsive {
+    height: 300px;
+    background: $bg-color;
+    display: flex;
+    justify-content: space-around;
+  
+    .box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 200px;
+  
+      p {
+        text-align: center;
+        @include paragraf();
+  
+      }
+  
+      h3 {
+        letter-spacing: 1px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        font-weight: lighter;
+      }
+    }
+  
+  }
+  
+  .box i {
+    color: $button-color;
+  }

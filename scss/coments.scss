@@ -1,0 +1,54 @@
+// People saying... dalis
+
+.people-say {
+    height: 400px;
+    background: $bg-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 40px;
+  
+    h2 {
+      padding-top: 50px;
+      margin-bottom: 40px;
+      font-weight: lighter;
+      text-align: center;
+    }
+  
+    .people {
+  
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+  
+      .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 250px;
+  
+        img {
+          width: 150px;
+          border-radius: 100%;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+  
+        p {
+          text-align: center;
+          @include paragraf();
+  
+        }
+  
+        h3 {
+          letter-spacing: 1px;
+          margin-bottom: 5px;
+          margin-top: 15px;
+          font-weight: lighter;
+          font-size: 15px;
+        }
+      }
+  
+    }
+  }
+  

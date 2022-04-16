@@ -1,0 +1,68 @@
+//footer dalis
+footer {
+    height: 140px;
+    background: $bg-color;
+    display: flex;
+  
+    justify-content: space-around;
+    align-items: center;
+  
+    .about {
+      font-size: 0.8em;
+  
+      p {
+        margin-top: 10px;
+        font-size: 0.8em;
+        color: $text-color;
+      }
+  
+      nav {
+  
+        ul {
+          display: flex;
+          list-style: none;
+  
+          li {
+  
+  
+            transition: 0.3s;
+  
+            &:hover {
+              transform: scale(1.2);
+            }
+          }
+  
+          .dot {
+            &::after {
+              content: "\2022";
+              color: $button-color;
+              font-weight: lighter;
+              display: inline-block;
+              width: 20px;
+            }
+  
+          }
+  
+          a {
+            color: $button-color;
+            margin-right: 15px;
+          }
+  
+        }
+  
+      }
+    }
+  
+    .social {
+      svg {
+        height: 20px;
+        padding: 7px;
+        color: $button-color;
+        cursor: pointer;
+        transition: 0.3s;
+        &:hover{
+          transform: scale(1.2);
+        }
+      }
+    }
+  }

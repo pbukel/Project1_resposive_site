@@ -1,0 +1,182 @@
+@media (max-width: 768px) {
+    .navigacija {
+      margin: 0 20px;
+    }
+  
+    .responsive {
+      height: auto;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+      padding-top: 40px;
+      padding-bottom: 40px;
+  
+    }
+  }
+  
+  @media (max-width:450px) {
+    .sea {
+      min-height: 550px;
+  
+      .textas p {
+        width: 290px;
+  
+      }
+  
+      .signin {
+        form {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 10px;
+          width: 280px;
+  
+          input {
+            width: 93%;
+            margin: 0;
+            padding: 5px 10px 5px 10px;
+          }
+  
+          button {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            padding: 10px;
+  
+          }
+        }
+  
+      }
+    }
+  
+  
+  }
+  
+  @media (max-width:450px) {
+    main {
+      section {
+        &:nth-of-type(2n) {
+          flex-direction: column-reverse;
+        }
+  
+        flex-direction: column-reverse;
+  
+        .art {
+          width: 100%;
+  
+          div {
+  
+            p {
+              font-size: 1.2em;
+              line-height: 25px;
+            }
+  
+            h1 {
+              font-size: 2em;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  @media (max-width:450px) {
+    .people {
+      flex-direction: column;
+  
+      .box {
+        margin: auto;
+  
+      }
+  
+    }
+  
+    .people-say {
+      display: block;
+      height: 100%;
+  
+      h2 {
+        font-size: 2em;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+  
+    }
+  
+  }
+  
+  @media (max-width:450px) {
+    .sea2 {
+      min-height: 400px;
+  
+      .textas p {
+        width: 290px;
+        font-size: 2em;
+  
+      }
+  
+      .signin {
+        form {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 10px;
+          width: 280px;
+  
+          input {
+            width: 93%;
+            margin: 0;
+            padding: 5px 10px 5px 10px;
+          }
+  
+          button {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            padding: 10px;
+  
+          }
+        }
+  
+      }
+    }
+  
+  
+  }
+  
+  @media (max-width:450px) {
+    footer {
+      height: 100%;
+      flex-direction: column;
+      margin: auto;
+  
+      .about {
+        margin: auto;
+        text-align: center;
+  
+        nav {
+          a {
+            margin-right: 0px !important;
+          }
+  
+          ul {
+            width: 250px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            line-height: 30px;
+            margin-top: 70px;
+          }
+        }
+      }
+  
+      .social {
+        margin-bottom: 60px;
+  
+        svg {
+          height: 30px;
+          padding: 20px;
+        }
+      }
+    }
+  }
